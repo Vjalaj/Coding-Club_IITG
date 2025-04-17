@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IITG ODP Coding Club</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="icon-nav">
+                <ul>
+                    <li><button class="nav-btn" data-face="front" title="Home">🏠</button></li>
+                    <li><button class="nav-btn" data-face="right" title="Events">📅</button></li>
+                    <li><button class="nav-btn" data-face="back" title="Projects">💻</button></li>
+                    <li><button class="nav-btn" data-face="left" title="About">ℹ️</button></li>
+                    <li><button class="nav-btn" data-face="top" title="Resources">📚</button></li>
+                    <li><button class="nav-btn" data-face="bottom" title="Contact">📧</button></li>
+                </ul>
+            </nav>
+            <div class="title-theme">
+                <h1>Coding Club</h1>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle" checked>
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </header>
+        
+        <main>
+            <div class="scene">
+                <div class="cube">
+                    <!-- Front Face - Home -->
+                    <div class="cube__face cube__face--front" data-face="front">
+                        <div class="content">
+                            <h2>Welcome to Coding Club</h2>
+                            <p>A community of passionate coders learning and building together.</p>
+                            <p>Click on the home button for more details</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Right Face - Events -->
+                    <div class="cube__face cube__face--right" data-face="right">
+                        <div class="content">
+                            <h2>Events</h2>
+                            <p>Join our weekly coding sessions and special events.</p>
+                            <p>Click on the events button for more details</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Back Face - Projects -->
+                    <div class="cube__face cube__face--back" data-face="back">
+                        <div class="content">
+                            <h2>Projects</h2>
+                            <p>Explore our collaborative coding projects.</p>
+                            <p>Click on the projects button for more details</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Left Face - About -->
+                    <div class="cube__face cube__face--left" data-face="left">
+                        <div class="content">
+                            <h2>About Us</h2>
+                            <p>Learn about our mission and team.</p>
+                            <p>Click on the about button for more details</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Top Face - Resources -->
+                    <div class="cube__face cube__face--top" data-face="top">
+                        <div class="content">
+                            <h2>Resources</h2>
+                            <p>Discover learning materials and tools.</p>
+                            <p>Click on the resources button for more details</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Bottom Face - Contact -->
+                    <div class="cube__face cube__face--bottom" data-face="bottom">
+                        <div class="content">
+                            <h2>Contact Us</h2>
+                            <p>Get in touch with our team.</p>
+                            <p>Click on the contact button for more details</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Modal for detailed panel information -->
+            <div id="panel-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <div id="modal-content"></div>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>&copy; 2025 Coding Club.</p>
+            <p>All rights reserved.</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
