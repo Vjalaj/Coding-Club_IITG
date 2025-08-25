@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/dark_logo.jpg" alt="Coding Club IITG Logo" width="200" height="200">
+  <img src="assets/dark1_logo.jpg" alt="Coding Club IITG Logo" width="200" height="200">
   
   # 🚀 Coding Club IITG
   
